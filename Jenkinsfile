@@ -9,7 +9,7 @@ pipeline {
 
     stage('Deploy') {
       steps {
-        sh './var/lib/jenkins/workspace/Test-b/script.sh'
+        sh './var/lib/jenkins/workspace/Test-b_master/script.sh'
       }
     }
 
